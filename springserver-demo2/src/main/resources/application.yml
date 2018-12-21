@@ -1,0 +1,9 @@
+server:
+  port: 8763
+spring:
+  application:
+    name: springserverDemo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://172.16.18.148:8761/eureka/
